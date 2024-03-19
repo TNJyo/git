@@ -1,0 +1,9 @@
+NODE * getnode()
+{
+    NODE * temp=(NODE*)malloc(sizeof(NODE));
+    temp->link=NULL;
+    temp->flag=0;
+    printf("coefficient and exponents of X,Y,Z\n");
+    scanf("%d%d%d%d",&temp->cf,&temp->px,&temp->py,&temp->pz);
+    return temp;
+}
